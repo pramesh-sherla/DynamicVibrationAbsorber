@@ -10,7 +10,7 @@ tStop = 10;
 dt = 1/Fs;
 t = (0:dt:tStop)';
 sigFreq = 1;
-amp = 2;
+amp = 0.05;
 sig = amp* sin(sigFreq * t *h2r);
 
 
